@@ -85,8 +85,8 @@ class InstagramExtract: AppCompatActivity() {
         // FuelManager 설정 (선택사항)
         FuelManager.instance.basePath = "https://api.instagram.com"
 
-        val clientId = "802744445198772"
-        val clientSecret = "e7bbf7de75d08046d0f3c34570dfddcc"
+        val clientId = "" // 인스타그램 앱 클라이언트 아이디
+        val clientSecret = "" // 인스타그램 클라이언트 시크릿키
         val grantType = "authorization_code"
         val redirectUri = "https://example.com/instagramredirection" // 실제 콜백 URL로 변경해야 함
         val requestCode = code

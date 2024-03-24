@@ -111,8 +111,8 @@ class YoutubeExtract : AppCompatActivity() {
         // 인증 코드를 사용하여 액세스 토큰을 요청하고 처리하는 코드를 작성합니다.
         // 이 부분은 네트워크 요청을 통해 Google OAuth 2.0 서버에 인증 코드를 보내고 액세스 토큰을 받아오는 과정입니다.
         // 예시 코드를 통해 네트워크 요청 및 JSON 파싱 등을 수행할 수 있습니다.
-        val clientId = "466064898648-d03omb79q96tgt5a94fed1u4ljnepij5.apps.googleusercontent.com"
-        val clientSecret = "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"
+        val clientId = "" // 구글 앱 클라이언트 아이디
+        val clientSecret = "" // 구글 앱 클라이언트 시크릿 키
         val redirectUri = "https://moiroom.firebaseapp.com/__/auth/handler"
 
         // Google OAuth 2.0 서버에 액세스 토큰을 요청하는 엔드포인트 URL
